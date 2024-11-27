@@ -1,0 +1,138 @@
+/* NoticeCard.css */
+
+.notice-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  min-height: 170px;
+  position: relative;
+}
+
+.notice-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.notice-info {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice-content {
+  flex-grow: 1;
+  min-height: 80px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.notice-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2f4858;
+  font-family: Poppins;
+}
+
+.notice-description {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #746c6c;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.notice-footer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  margin: auto 0px;
+}
+
+.notice-date {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #64a7ca;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-family: Poppins;
+}
+
+.date-icon {
+  margin-right: 5px;
+  color: #64a7ca;
+  height: 30px;
+  width: 20px;
+}
+
+.notice-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  /* width: 60px; */
+  position: absolute;
+  bottom: 10px;
+}
+
+.action-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #4a4a4a;
+  font-size: 18px;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.action-btn:hover {
+  color: #ff6b6b;
+}
+.edit-btn {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #1a4258;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.big {
+  font-size: 24px;
+}
+.interested-text {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+}
+.in-p {
+  font-size: 12px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  margin-bottom: -6px;
+  margin-right: 10px;
+}

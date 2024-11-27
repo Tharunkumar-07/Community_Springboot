@@ -1,0 +1,130 @@
+.apartment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.apartment-right-sec {
+  margin-left: 20%; /* Leave space for the fixed sidebar */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.apartment-right-main-sec {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.apartment-members-container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  height: 100vh;
+  overflow-y: auto; /* Allow scrolling for the right section */
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.block-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+  height: 40px;
+  width: 150px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.block-button.active {
+  background-color: #1a4258;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.ap-search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 30px;
+  width: 300px;
+  padding-left: 30px;
+  font-family: Poppins;
+  outline: none;
+  background-color: #d9d9d9;
+}
+
+.filter-button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #e4e9f0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #d4d8e0;
+}
+
+.add-new-button {
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-new-button:hover {
+  background-color: #0a58ca;
+}
+
+.members-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.m-search-sec {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.ap-search-icon {
+  height: 40px;
+  height: 40px;
+  margin-left: -50px;
+  cursor: pointer;
+}

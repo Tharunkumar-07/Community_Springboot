@@ -1,0 +1,114 @@
+.side-nav-bar {
+  width: 20%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.side-nav-logo {
+  width: 60px;
+}
+
+.side-menu {
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item.active {
+  background: linear-gradient(90deg, #06283a, #65a8cc);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.icon.active-icon {
+  filter: brightness(0) invert(1); /* Turns the icon color to white */
+}
+
+.text {
+  font-size: 16px;
+  color: #06283a;
+  white-space: nowrap;
+}
+
+.menu-item.active .text {
+  color: white;
+}
+.logout-container {
+  margin-bottom: 20px;
+  margin-top: auto;
+  align-self: flex-start;
+}
+.logout {
+  height: 20px;
+}
+
+.modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.popup-content {
+  width: 40% !important;
+  border-radius: 10px;
+  height: 220px;
+}
+.p-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon2 {
+  height: 40px;
+}
+.head4 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+}
+.actions {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.size-less {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.outline {
+  background-color: white;
+  color: #06283a;
+  border: 1px solid #06283a;
+}
+
+.logout-pop {
+  border: none;
+  background-color: transparent;
+  margin-left: 0;
+}

@@ -1,0 +1,151 @@
+.vendor-services-container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.service-types {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.service-type-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e4e9f0;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.service-type-button.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.service-type-button:hover {
+  background-color: #d4d8e0;
+}
+
+.service-request-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.service-request-details textarea {
+  resize: vertical;
+}
+
+.ap-head1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.round-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+  height: 40px;
+  width: 150px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.round-button.active {
+  background-color: #1a4258;
+  color: white;
+}
+
+.req-input {
+  height: 40px;
+  width: 347px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.ap-label {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.req-input-text {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  width: 347px;
+  padding-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+.failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+.failure-heading-text {
+  color: #171f46;
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: "DM Sans" sans-serif;
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.req-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+.image-r {
+  height: 200px;
+  width: 300px;
+  margin-top: 40px;
+}

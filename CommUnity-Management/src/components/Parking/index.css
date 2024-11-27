@@ -1,0 +1,12 @@
+.p-add-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.no-space {
+  margin-top: 0 !important;
+}

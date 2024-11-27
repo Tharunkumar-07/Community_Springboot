@@ -1,0 +1,54 @@
+.headerWrapper {
+  background-color: #1a4258;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: content-box;
+  width: 100vw;
+  overflow-x: hidden;
+  font: 400 16px Roboto, sans-serif;
+  height: 80px;
+}
+.logo {
+  aspect-ratio: 2.78;
+  object-fit: contain;
+  object-position: center;
+  width: 214px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .headerWrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.navWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: auto 0;
+  margin-right: 5%;
+}
+
+.navList {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 1px 9px;
+  list-style-type: none;
+}
+
+.navItem {
+  align-self: start;
+  display: flex;
+  gap: 10px;
+}
+
+.navLink {
+  flex-grow: 1;
+  text-decoration: none;
+  color: white;
+}

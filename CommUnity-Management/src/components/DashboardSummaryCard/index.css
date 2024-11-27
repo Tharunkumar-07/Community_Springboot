@@ -1,0 +1,40 @@
+.d-img-bg {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  background-color: #1a4258;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-top-sec {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.d-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  height: 80px;
+  width: 130px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.d-h4 {
+  font-family: Alatsi;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: -10px;
+}
+.d-p {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+  font-family: Poppins;
+}
+.color {
+  color: white;
+}

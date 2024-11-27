@@ -1,0 +1,18 @@
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 20px;
+}
+
+.text {
+  font-size: 14px;
+  font-family: "Poppins";
+}

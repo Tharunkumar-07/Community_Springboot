@@ -1,0 +1,54 @@
+.feedback-details {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.width {
+  width: 90%;
+  margin: auto;
+}
+.right-aligns {
+  align-self: flex-end;
+}
+.col-cont {
+  display: flex;
+  flex-direction: column;
+}
+.less-width {
+  width: 30%;
+}
+.center {
+  justify-content: center;
+}
+.head-f-center {
+  text-align: center;
+  font-family: Poppins;
+  margin-top: 50px;
+}
+.feedback-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Horizontal line */
+  padding: 20px 0; /* Spacing between items */
+}
+
+.feedback-index {
+  font-weight: bold;
+  margin-right: 10px; /* Space between index and content */
+}
+
+.feedback-content {
+  flex-grow: 1; /* Allows content to take up remaining space */
+}
+
+.feedback-item:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}

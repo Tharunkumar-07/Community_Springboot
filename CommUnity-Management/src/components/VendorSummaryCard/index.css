@@ -1,0 +1,36 @@
+.v-img-bg {
+  height: 34px;
+  width: 34px;
+  border-radius: 17px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.v-top-sec {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.v-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  height: 97px;
+  width: 180px;
+}
+.v-h4 {
+  font-family: Alatsi;
+  font-size: 55px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: -20px;
+}
+.v-p {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+  font-family: Poppins;
+}

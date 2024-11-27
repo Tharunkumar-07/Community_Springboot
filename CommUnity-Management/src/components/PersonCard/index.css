@@ -1,0 +1,58 @@
+.person-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 240px;
+  height: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Poppins;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+}
+
+.person-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border-radius: 15px;
+}
+
+.person-info {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.person-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.person-block,
+.person-room,
+.person-phone,
+.person-email {
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-family: Poppins;
+}
+.person-room,
+.person-phone,
+.person-email {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

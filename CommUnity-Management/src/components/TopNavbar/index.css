@@ -1,0 +1,59 @@
+.top-nav-bar-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.n-head {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: auto;
+}
+.avathar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.t-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-left: 30px;
+  color: #1a4258;
+  cursor: pointer;
+}
+.n-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.av-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.left-space {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.avathar {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}

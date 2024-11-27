@@ -1,0 +1,212 @@
+/* NoticeBoard.css */
+
+.notice-board {
+  padding-top: 30px;
+  width: 95%;
+}
+
+.add-notice-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f4858;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 175px;
+  height: 105px;
+  font-family: Poppins;
+}
+
+.add-notice-btn span {
+  margin-right: 8px;
+  font-size: 20px;
+  margin-bottom: -3px;
+}
+
+.notice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .notice-actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #2f4858;
+  font-size: 20px;
+  padding: 5px;
+  transition: color 0.3s;
+} */
+
+.notice-actions button:hover {
+  color: #ff6b6b;
+}
+.big {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.notice-board .popup-content {
+  width: 50%;
+  border-radius: 10px;
+  height: 220px;
+  height: 90%;
+  background-color: #f5f5f5;
+}
+.p-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notice-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.n-img-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 110px;
+  height: 110px;
+  background-color: #1a4258;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+}
+.n-no-space {
+  margin: 0;
+}
+
+.n-img-upload {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.n-img-up-in {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+}
+
+.n-img-upload span {
+  display: inline-flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 13px;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  height: 80%;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.notice-upper-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 0;
+  margin-top: 30px;
+}
+.n-inp {
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 65%;
+  height: 35px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 15px;
+  font-family: Poppins;
+}
+.n-textarea {
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 85%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 15px;
+  font-family: Poppins;
+  padding: 15px;
+}
+.right-align {
+  align-self: flex-end;
+  margin-right: 8%;
+}
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-btn svg {
+  color: #333;
+}
+.no-space-right {
+  width: 0 !important;
+}

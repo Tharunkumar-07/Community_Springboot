@@ -1,0 +1,46 @@
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#server:
+#  port: 7001
+#spring:
+#  application:
+#    name: SocietyManagementService
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/SocietyManagementdb
+#    username: root
+#    password: pass@word1
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      show-sql: true
+
+
+spring:
+  application:
+    name: Expense
+  datasource:
+    url: jdbc:mysql://localhost:3306/SocietyManagementdb
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 0
+
+
+eureka:
+  client:
+    registerWithEureka: true        # Registers this service with the Eureka server
+    fetchRegistry: true             # Fetches the registry from the Eureka server
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  # URL of the Eureka server to connect with
+  instance:
+    hostname: localhost             # The hostname of the instance
+    instance-id: "${spring.application.name}:${instanceId:${random.value}}"  # Instance ID, with dynamic values

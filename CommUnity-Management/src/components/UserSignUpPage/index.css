@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.u-form-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.u-img-sec {
+  background-image: url("https://res.cloudinary.com/digbzwlfx/image/upload/v1724859291/european-modern-complex-residential-buildings-outdoor-facilities_250132-4082_1_empqqi.png");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.u-register-form {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.u-submit-button {
+  background-color: #1a4258;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.u-submit-button:hover {
+  background-color: #004494;
+}
+
+.u-inp-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f1f4f7;
+}
+
+.u-inp-top-sec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.u-head1 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1a4258;
+  margin-left: 30px;
+}
+
+.u-logo-img {
+  height: 100px;
+  width: 100px;
+}
+.u-input-f {
+  height: 25px;
+  width: 350px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.u-select-f {
+  height: 40px;
+  width: 370px;
+}
